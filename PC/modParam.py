@@ -2,7 +2,7 @@ import time
 import serial
 ser = serial.Serial('COM7', 115200)  # open serial port
 
-command = b'[5 0.1]\n\r'
+command = b'[5 0.1 200]\n\r'
 ser.write(command)     # write a string
 
 reply = b''
