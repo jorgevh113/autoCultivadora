@@ -53,7 +53,3 @@ while True:
         data[2] = cp.sound_level #Obtener valor de sensor de ruido
         print(data) #Mandar matriz de datos al puerto serial
         start = time.time() #Reiniciar cronómetro
-
-
-
-

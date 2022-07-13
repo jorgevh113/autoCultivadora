@@ -26,7 +26,7 @@ buttonB = digitalio.DigitalInOut(board.BUTTON_B)
 buttonB.direction = digitalio.Direction.INPUT
 buttonB.pull = digitalio.Pull.DOWN
 # The two files assigned to buttons A & B
-audiofiles = ["rimshot.wav", "examples_dip.wav"]
+audiofiles = ["rimshot.wav", "examples_rise.wav"]
 def play_file(filename):
     print("Playing file: " + filename)
     wave_file = open(filename, "rb")
